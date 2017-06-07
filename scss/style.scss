@@ -21,9 +21,12 @@ body {
         text-align: center;
     }
     li {
-        &:hover {
+        &:not(.active):hover {
             background: #f4f4f4;
             cursor: pointer;
+            a {
+                color: #666;
+            }
         }
         li {
             padding: 5px 0;
@@ -31,6 +34,12 @@ body {
             &:hover {
                 border-left: 4px solid #406c96;
             }
+        }
+    }
+    .active {
+        background: #406c96;
+        a {
+            color: #fff;
         }
     }
 }
@@ -43,6 +52,7 @@ body {
     padding-bottom: 5px;
     >a {
         padding-bottom: 0;
+        color: #666;
     }
 }
 
