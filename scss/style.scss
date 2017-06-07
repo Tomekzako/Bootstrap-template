@@ -1,7 +1,52 @@
 body {
-  padding-top: 50px;
+    padding-top: 85px;
 }
+
 .starter-template {
-  padding: 40px 15px;
-  text-align: center;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.navbar {
+    font-family: 'Raleway', sans-serif;
+    background: #fff;
+    min-height: 85px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+    padding-top: 15px;
+    text-align: center;
+    span {
+        font-size: 10px;
+        color: #ccc;
+        text-align: center;
+    }
+    li {
+        &:hover {
+            background: #f4f4f4;
+            cursor: pointer;
+        }
+        li {
+            padding: 5px 0;
+            border-left: 4px solid #f4f4f4;
+            &:hover {
+                border-left: 4px solid #406c96;
+            }
+        }
+    }
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-nav>li {
+    padding-bottom: 5px;
+    >a {
+        padding-bottom: 0;
+    }
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background: none;
 }
