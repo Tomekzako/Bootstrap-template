@@ -250,7 +250,7 @@ section {
     }
 }
 
-@media(max-width:600px) {
+@media(max-width:760px) {
     h1 {
         font-size: 35px;
         text-align: center;
@@ -263,5 +263,8 @@ section {
     }
     .icons i {
         margin-top: 30px;
+    }
+    img.imac{
+        margin-left: 560px;
     }
 }
