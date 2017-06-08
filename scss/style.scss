@@ -3,14 +3,20 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #406c96;
     font-family: 'Raleway', sans-serif;
 }
 
-a{
-    color: #406c96; 
+a {
+    color: #406c96;
 }
+
 .starter-template {
     padding: 40px 15px;
     text-align: center;
@@ -70,21 +76,25 @@ a{
     background: none;
 }
 
+
 /* SECTION 1 */
 
-section{
+section {
     padding: 30px 0;
     overflow: hidden;
-    h1{
+    h1 {
         margin: 30px 0;
     }
 }
 
-.section-default{
+.section-default {
     background: #f7f8f7;
+    img {
+        width: 100%;
+    }
 }
 
-.highlight{
+.highlight {
     background: #406c96;
     color: #fff;
     padding: 5px 25px;
@@ -93,22 +103,45 @@ section{
     border-radius: 5px;
 }
 
-.section-default__list{
+.section-default__list {
     margin-top: 30px;
-    li{
+    li {
         list-style: none;
         line-height: 2em;
         padding: 5px 0;
-        font-size: 18px; 
+        font-size: 18px;
     }
 }
+
 .fa {
     margin-right: 10px;
     color: #406c96;
     font-size: 1.5em;
 }
 
-.section-primary{
+
+/*SECTION 2 */
+
+.section-primary {
     background: #406c96;
     color: #fff;
+}
+
+.icons {
+    text-align: center;
+    h4 {
+        color: #fff;
+    }
+    i {
+        display: block;
+        margin-bottom: 15px;
+    }
+}
+
+.fa-white {
+    color: #fff;
+}
+
+.fa-lg {
+    font-size: 4em;
 }
