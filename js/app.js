@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const mobile = document.querySelector('.mobile');
     const imac = document.querySelector('.imac');
 
+    imac.classList.add('animate');
+
     window.addEventListener('scroll', function () {
 
         if (window.scrollY >= 350) {

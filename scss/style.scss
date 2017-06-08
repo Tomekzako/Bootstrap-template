@@ -91,6 +91,13 @@ section {
     background: #f7f8f7;
     img {
         width: 100%;
+        position: relative;
+        margin-left: 500px;
+    }
+    img.imac.animate {
+        -moz-transform: translate(-40em, 0);
+        -webkit-transform: translate(-40em, 0);
+        transform: translate(-40em, 0);
     }
 }
 
